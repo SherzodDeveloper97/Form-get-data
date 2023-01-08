@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forma ma'lumotlarini olish</title>
+  </head>
+  <body>
+    <h1>Form get data</h1>
+    <form method="POST" data-netlify="true">
+      <div>
+        <label for="firstName">Ismingiz</label>
+        <input type="text" name="firstName" id="firstName" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Emailingiz</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <br />
+      <div>
+        <label for="message">Xabaringiz</label><br />
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </div>
+      <br />
+      <div class="field">
+        <div data-netlify-recatcha="true"></div>
+      </div>
+      <button type="submit">Yuborish</button>
+    </form>
+  </body>
+</html>
